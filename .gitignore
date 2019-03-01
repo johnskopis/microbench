@@ -1,4 +1,4 @@
 env
 env3
-__pycache__
-*.pyc
+**/*/__pycache__
+**/*.pyc
