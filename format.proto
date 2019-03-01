@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+message Thing {
+  map<string, string> pairs = 1;
+  repeated string idx1 = 100;
+  repeated string idx2 = 101;
+  repeated string idx3 = 102;
+  string data = 254;
+}
